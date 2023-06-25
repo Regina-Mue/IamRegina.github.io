@@ -87,8 +87,8 @@ body {
   overflow: auto;
   margin: 0;
   padding: 0;
-  width: auto!important; 
-  overflow-x: hidden!important;
+  width: auto; 
+  overflow-x: hidden;
   overscroll-behavior-y: none;
   font-family: Arial, Helvetica, sans-serif;
 }
