@@ -234,7 +234,7 @@ label, p, a, td, img{
 
 .skill_item {
   background-color: #FBFDFC;
-  padding: 15px;
+  padding: 20px;
   -webkit-box-flex: 25%;
   -ms-flex: 25%;
   flex: 25%;
@@ -242,9 +242,9 @@ label, p, a, td, img{
 }
 
 .skill_item:hover {
-  -webkit-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  transform: scale(1.15);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .CV_button {
