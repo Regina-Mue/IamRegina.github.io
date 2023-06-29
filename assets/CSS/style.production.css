@@ -63,15 +63,15 @@ body {
   overflow: auto;
   margin: 0;
   padding: 0;
-  width: auto!important; 
-  overflow-x: hidden!important;
+  width: auto; 
+  overflow-x: hidden;
   overscroll-behavior-y: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .page_header {
@@ -86,14 +86,14 @@ body {
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -130,6 +130,10 @@ header a:hover {
 
 header a:active {
   color: #EDC655;
+}
+
+section {
+  margin: 10px;
 }
 
 section a:active {
@@ -184,6 +188,11 @@ section a:hover {
   margin-right: 40px;
 }
 
+h1, h2, h3, img, p, td {
+  cursor: default;
+  color: #111111;
+}
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -191,7 +200,7 @@ h1 {
 }
 
 h2 {
-  font-family: undefined;
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 22px;
 }
@@ -202,31 +211,7 @@ h3 {
   font-size: 20px;
 }
 
-label {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  line-height: 1.2;
-}
-
-p {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  line-height: 1.2;
-}
-
-a {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  line-height: 1.2;
-}
-
-td {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  line-height: 1.2;
-}
-
-img {
+label, p, a, td, img{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   line-height: 1.2;
@@ -238,28 +223,28 @@ img {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 18px;
   text-align: center;
   margin: 20px 0;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .skill_item {
   background-color: #FBFDFC;
   padding: 15px;
   -webkit-box-flex: 25%;
-      -ms-flex: 25%;
-          flex: 25%;
+  -ms-flex: 25%;
+  flex: 25%;
   text-align: center;
 }
 
 .skill_item:hover {
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .CV_button {
@@ -273,36 +258,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   height: 100px;
-}
-
-td {
-  cursor: default;
-  color: #111111;
-}
-
-p {
-  cursor: default;
-  color: #111111;
-}
-
-img {
-  cursor: default;
-  color: #111111;
-}
-
-h1 {
-  cursor: default;
-  color: #111111;
-}
-
-h2 {
-  cursor: default;
-  color: #111111;
-}
-
-h3 {
-  cursor: default;
-  color: #111111;
 }
 
 .page_footer {
