@@ -1,6 +1,7 @@
 "use strict"
 
 module.exports = {
+  "ignoreFiles": ["**/*.js"],
   "rules": {
     "at-rule-no-unknown": true,
     "block-no-empty": true,
