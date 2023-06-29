@@ -385,12 +385,6 @@ textarea {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
-  .skill_set {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px){
@@ -400,11 +394,20 @@ textarea {
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 750px){
+@media all and (min-width: 320px) and (max-width: 750px) {
   .skill_item {
     -webkit-box-flex: 50%;
         -ms-flex: 50%;
             flex: 50%;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .skill_set {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
