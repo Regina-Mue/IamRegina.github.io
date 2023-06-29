@@ -392,11 +392,15 @@ textarea {
             flex-direction: column;
   }
 }
+
 @media all and (min-width: 500px) and (max-width: 750px){
   .courses, .work {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+@media all and (min-width: 320px) and (max-width: 750px){
   .skill_item {
     -webkit-box-flex: 50%;
         -ms-flex: 50%;
